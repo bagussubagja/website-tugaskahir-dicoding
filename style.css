@@ -463,7 +463,8 @@ img {vertical-align: middle;}
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font-size: 14px;
+        font-family: poppins;
 	}
 
 	.footer-distributed .footer-left,
