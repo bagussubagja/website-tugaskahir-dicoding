@@ -15,6 +15,14 @@ body{
     box-sizing: border-box;
 }
 
+#header-top{
+    background-color: rgba(137, 207, 240, 0.150);
+    color: #1c3548;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
 ul{
     list-style: none;
 }
@@ -23,25 +31,26 @@ a{
     text-decoration: none;
 }
 
+#border{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
 #main{
     width: 100%;
     height: 50vh;
     position: relative;
 }
 
-#main2{
-    width: 100%;
-    height: 50vh;
-    position: relative;
-}
-
 nav{
+    margin-top: 100px;
     float: inherit;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -238,6 +247,7 @@ nav ul li a:hover{
 
 .social-links a:hover{
     color: #89cff0;
+    transition: all ease 0.3s;
 }
 
 /* bagian-skills */
@@ -432,7 +442,6 @@ img {vertical-align: middle;}
     padding: 20px;
     height: 450px;
     border-radius: 20px;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     text-align: center;
   }
 
@@ -477,7 +486,6 @@ img {vertical-align: middle;}
     margin-bottom: 40px;
     padding: 35px;
     border-radius: 35px;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     text-align: center;
 }
 
@@ -490,8 +498,8 @@ img {vertical-align: middle;}
 }
 
 .article-pict img{
-    width: 550px;
-    height: 300px;
+    width: 575px;
+    height: 275px;
 }
 
 .article-heading{
@@ -532,6 +540,66 @@ img {vertical-align: middle;}
   position: relative;
   width: 175px;
   height: 75px;
+}
+
+/* bagian-quote */
+
+#quotes{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quote-text{
+    margin-top: 75px;
+}
+
+#quotes article{
+    display: flex;
+    margin: 20px;
+}
+
+#quotes article .quote-text, .card{
+    padding: 10px;
+}
+
+#quotes article{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+main #quotes article #cardSection .card{
+    padding-top: 25px;
+    background: rgba(137, 207, 240, 0.150);
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.quote-text h2{
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#quotes #cardSection img{
+    width: 125px;
+    height: 125px;
+}
+
+#quote-name{
+    font-size: 10;
+    color: #aaaaaa;
+}
+
+.self-desc{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
 }
 
 /* bagian-footer */
@@ -626,3 +694,5 @@ img {vertical-align: middle;}
 }
 
 /* end */
+
+
